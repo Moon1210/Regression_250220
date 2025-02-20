@@ -10,7 +10,7 @@ class Menu{
 menu0 = new Menu("1. 선형회귀분석")//1. 개발목적/언어-선정/요구사항명세/분석 2. 구현도구/라이센스 3. 테스트도구(junit,mockobj)  4. 형상관리도구  5. 빌드도구
 menu0.url = "?menu=0"
 menu0.tips = ["1.1 성적 예측","1.2 당뇨 상태 예측","1.3 보스턴 주택가격 예측"]
-menu1 = new Menu("2. 임시메뉴")
+menu1 = new Menu("2. 로지스틱 회귀분석")
 menu1.url = "?menu=1"
 menu1.tips = ["2.1 임시1","2.2 임시2","2.3 임시3"] //로그인 로그아웃 기능
 menu2 = new Menu("3. 임시메뉴2")
