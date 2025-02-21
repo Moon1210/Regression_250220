@@ -14,18 +14,9 @@ class DataSet{
 	}
 	set_fill(ufill){this.user_fill=ufill}	 
 }
-//******************************* build describe ************************************************ 
-// 포트폴리오제시항목의 1. 
-//let d1 = new DataSet("개발환경구축")// 메뉴별 타이틀입니다. menu.js에서 설정되어 있어야 하며 menu0.url = "?menu=0" 의 숫자와 data_sets 의 배열 인덱스와 동일해야 합니다.
-// 포트폴리오 제시항목의 1-1
-//d1.set_content("서브컨텐츠") // 각 메뉴별 화면을 구성하는 화면 구성요소입니다. 
-// 포트폴리오 제시항목의 1-1 내용별 컨텐츠
-//d1.set_img(항목별인덱스,{imgtitle:"요구사항명세",imgurl:"구글이미지주소",imglog:"이미지에대한 설명",sourceurl:"작성된 문서등 관련링크 주소"}) 
-// 항목별 인덱스는 1-1 제시항목별 입력값인 정수 인덱스 입니다. set_content 인덱스 순서와 맞아야 합니다.
-//  set_content는 입력순서별 인덱스로 0 부터 시작입니다.
 
-let d1 = new DataSet("개발환경구축")//메인 타이틀 //메뉴번호
-d1.set_content("사용자의 로그인 기능을 구현하여 로그인 사용자와 비로그인 사용자에 제공 서비스를 구분한다.")//서브 타이틀
+let d1 = new DataSet("선형회귀분석")//메인 타이틀 //메뉴번호
+d1.set_content("공부시간과 성적과 관련성의 선형성을 가진 연속적인 데이터를 활용하여 연속된 예상값을 추출하는 모델")//서브 타이틀
 d1.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1nnSKw0su1NKkr-4O3bXNv33_ZZ8D54Qk/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
 
 
