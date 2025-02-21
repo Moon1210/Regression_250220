@@ -39,10 +39,18 @@ d1.set_img(1,{imgtitle:"데이터 예측",imgurl:"https://drive.google.com/file/
 
 
 d1.set_content("보스턴 지역의 환경에 따른 하우스 가격 데이터로 예측값은 연속데이터로 출력")
-d1.set_img(2,{imgtitle:"",imgurl:"",sourceurl:""})//이미지타이틀
-d1.set_img(2,{imgtitle:"개발도구 Spring for Eclipse",imgurl:"https://drive.google.com/file/d/1vl3Ridea05eDn3Hx0cfIWzgkPi-vQX31/view?usp=drive_link",imglog:"자바 스프링 서버단 개발을 위한 도구",sourceurl:""})//이미지타이틀
-d1.set_img(2,{imgtitle:"빌드도구 gradle",imgurl:"https://drive.google.com/file/d/1vlxyuzBmzaBk7B9VoycUH0mRBBxe4nTr/view?usp=drive_link",imglog:"프로그램 빌드 및 외부 라이브러리 디펜더시를 위한 도구",sourceurl:""})//이미지타이틀
-d1.set_img(2,{imgtitle:"형상관리도구 git",imgurl:"https://drive.google.com/file/d/1yLXiqHWblzxAnZXGZKvRcxU8HSgf3UqS/view?usp=drive_link",imglog:"프로그램의 전반적인 개발협업 및 버전관를 위한 도구",sourceurl:""})//이미지타이틀
+d1.set_img(2,{imgtitle:"보스턴하우징샘플코드",imgurl:"https://drive.google.com/file/d/1fxAywvlQcSIPcNviXJL7QLPiZ3JgBdmD/view?usp=drive_link",imglog:"총 12개 유형의 데이터로 범죄율, 주거토지비율, 회사입지비율, 강의 경계여부, 일상화질소 농도, 방의 갯수등 13개의 데이터를 분석하여 집가격을 예측하는 시나리오",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"1.데이터연관성 산점도 분석코드",imgurl:"https://drive.google.com/file/d/17xs543I_4d7EutaWPWUoUUn70TtnvLjP/view?usp=drive_link",imglog:"데이터연관성 분석을 위해 데이터 항목별 산점도 시각화",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"2.산점도 시각화 그래프",imgurl:"https://drive.google.com/file/d/1zdCmPnN6wgavx7VOf4Jm3_s8Zkg0MAam/view?usp=drive_link",imglog:"분석결과 5번 인덱스 그래프의 선형방향성 확인 선택",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"3.산점도 시각화 그래프",imgurl:"https://drive.google.com/file/d/1UMQ9WywBL1AuR071u23dPufA-QhqCbk0/view?usp=drive_link",imglog:"분석결과 7번 인덱스 그래프의 선형방향성 확인 선택",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"훈련을 위한 데이터 선택",imgurl:"https://drive.google.com/file/d/1MYUffne5GXqG8mtVn1Jzzvl_RTO16Gs9/view?usp=drive_link",imglog:"5번 인덱스 데이터와 7번 인덱스 데이터의 선형성 확인결과로 훈련데이터로 추출후 선형성 재확인",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"훈련데이터 전처리",imgurl:"https://drive.google.com/file/d/1yklqBb6nzGXkmrh1i5zQF0wJSWDI_gvj/view?usp=drive_link",imglog:"훈련데이터의 수치 폭을 확인후 정규분포데이터로 표준화 실행",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"모델구성 및 훈련",imgurl:"https://drive.google.com/file/d/100joT9jnHm5XRzM5lTlxWuG1k1jTlKKF/view?usp=drive_link",imglog:"순차모델 구성과 입출력레이어 추가, MSE 손실함수 및 SGD 최적화함수를 적용하여 컴파일, 10회 훈련 실시",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"훈련결과 시각화",imgurl:"https://drive.google.com/file/d/1f2jZXpeZ-A7iaOWNUHcQOa6PQPKED7Gi/view?usp=drive_link",imglog:"훈련결과 손실값을 시각화 그래프 출력 결과 분석 및 확인",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+d1.set_img(2,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/boston_housing.py"})//이미지타이틀
+
+
 
 d1.set_fill("선형 분석을 위한 데이터 표준화 및 훈련실행 시 연관된 데이터의 수집과 분석하여 데이터를 선택함이 중요하게 생각된다.")//사용자 에필로그
 data_sets.push(d1)
