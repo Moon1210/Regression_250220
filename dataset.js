@@ -17,8 +17,12 @@ class DataSet{
 
 let d1 = new DataSet("선형회귀분석")//메인 타이틀 //메뉴번호
 d1.set_content("공부시간과 성적과 관련성의 선형성을 가진 연속적인 데이터를 활용하여 연속된 예상값을 추출하는 모델")//서브 타이틀
-d1.set_img(0,{imgtitle:"일부소스코드",imgurl:"https://drive.google.com/file/d/1iOckT0xtTu7BMFC5ASkz0LYV9bt_BzCp/view?usp=drive_link",imglog:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/examp_lg.py",sourceurl:"https://docs.google.com/document/d/1UvD1fZNL9yjLORwxgAW5vD6C-A_RwL1zcNan9RZqmys/edit?usp=drive_link"})//이미지타이틀
-d1.set_img(0,{imgtitle:"데이터분석",imgurl:"https://drive.google.com/file/d/1CIwZ85qicFFhAS3PUi21T_Oj0KdqJqXq/view?usp=drive_link",imglog:"문제데이터의 선형성 관계 파악을 위한 산점도 그래프 분석",sourceurl:"https://docs.google.com/document/d/1UvD1fZNL9yjLORwxgAW5vD6C-A_RwL1zcNan9RZqmys/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(0,{imgtitle:"일부코드샘플",imgurl:"https://drive.google.com/file/d/1iOckT0xtTu7BMFC5ASkz0LYV9bt_BzCp/view?usp=drive_link",imglog:"시험성적데이터를 임의로 만들어 선형회귀분석 코드",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/examp_lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"산점도데이터분석",imgurl:"",imglog:"문제데이터의 선형성 관계 파악을 위한 산점도 그래프 분석",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/examp_lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"데이터전처리",imgurl:"https://drive.google.com/file/d/1yQ-9SrC3kucE9QZSm_WUu6kKLQSNCM5n/view?usp=drive_link",imglog:"훈련시 모델의 올바른 학습을 데이터의 정규분포로 표준화 전처리 시행",sourceurl:"https://docs.google.com/document/d/1UvD1fZNL9yjLORwxgAW5vD6C-A_RwL1zcNan9RZqmys/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(0,{imgtitle:"선형모델의 구성, 컴파일, 훈련",imgurl:"https://drive.google.com/file/d/1h6qe2fzkVQ6Rwk-8Ji2DoezubuDGO4NG/view?usp=drive_link",imglog:"Sequential모델 및 입력출력레이어 작성과 mse 오차손실함수 및 역전파 시 적용 될 SGD(경사하강법) 최적화함수 적용과 200회 훈련 실행",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/examp_lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"훈련결과 시각화",imgurl:"https://drive.google.com/file/d/1lSgvcX5K5BWVC2hazEfoqcgm1qPb20E9/view?usp=drive_link",imglog:"시각화 그래프 판단 시 120회 훈련에서 훈련 조기종료를 검토할수도 있다",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/examp_lg.py"})//이미지타이틀
+d1.set_img(0,{imgtitle:"모델의 예측",imgurl:"https://drive.google.com/file/d/1VHCm1bFoPZKvjqHCujZecaLAaMUCe3i9/view?usp=drive_link",imglog:"임의의 데이터를 생성하여 모델의 예측 결과를 표기",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/examp_lg.py"})//이미지타이틀
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
 d1.set_img(1,{imgtitle:"개발언어선정",imgurl:"https://drive.google.com/file/d/15GgAeFgW1Cxctk9PbJagUNfG2UkEU4WS/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/1UvD1fZNL9yjLORwxgAW5vD6C-A_RwL1zcNan9RZqmys/edit?usp=drive_link"})//이미지타이틀
