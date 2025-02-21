@@ -24,6 +24,7 @@ d1.set_img(0,{imgtitle:"선형모델의 구성, 컴파일, 훈련",imgurl:"https
 d1.set_img(0,{imgtitle:"훈련결과 시각화",imgurl:"https://drive.google.com/file/d/1lSgvcX5K5BWVC2hazEfoqcgm1qPb20E9/view?usp=drive_link",imglog:"시각화 그래프 판단 시 120회 훈련에서 훈련 조기종료를 검토할수도 있다",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/examp_lg.py"})//이미지타이틀
 d1.set_img(0,{imgtitle:"모델의 예측",imgurl:"https://drive.google.com/file/d/1VHCm1bFoPZKvjqHCujZecaLAaMUCe3i9/view?usp=drive_link",imglog:"임의의 데이터를 생성하여 모델의 예측 결과를 표기",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/examp_lg.py"})//이미지타이틀
 
+
 d1.set_content("당뇨환자에 대한 1년 후 상태예측, 예측값은 연속데이터로 출력.")
 d1.set_img(1,{imgtitle:"샘플소스코드",imgurl:"https://drive.google.com/file/d/18cODSvjq_JmE6nmwbC-nl1m4w_UQw-UL/view?usp=drive_link",imglog:"당뇨환자에 대한 나이,성별,bmi수치, bp수치등을 10의 항목을 측정하여 1년후 당뇨수치에 대한 증감데이터",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
 d1.set_img(1,{imgtitle:"소스데이터수신 및 분석",imgurl:"https://drive.google.com/file/d/1qBfawY68DbxBftS0u-yXBqSEHp-Mrl8K/view?usp=drive_link",imglog:"sklearn의 diabetes 데이터를 수신하여 항목별 분석과 수치값과 1년후 변화 질량에 대한 확인",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
@@ -33,8 +34,9 @@ d1.set_img(1,{imgtitle:"2.선택데이터",imgurl:"https://drive.google.com/file
 d1.set_img(1,{imgtitle:"3.미선택",imgurl:"https://drive.google.com/file/d/1gYK4M78IFUpx_sb2CP4WinG1gRE60vVl/view?usp=drive_link",imglog:"성별데이터는 방향의 선형성이 없으므로 1년후 질량과 연관이 없으므로 판명되어 분석에서 제외",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
 d1.set_img(1,{imgtitle:"데이터추출",imgurl:"https://drive.google.com/file/d/1RwWozycnmvu82yDacz5xf-_XHGib5Hb9/view?usp=drive_link",imglog:"선택된 2번, 8번 인덱스 데이터 추출 및 데이터의 모양 확인 후 문제데이터와 정답데이터 값 확인분석",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
 d1.set_img(1,{imgtitle:"모델구성과 훈련",imgurl:"https://drive.google.com/file/d/1vp9phz3ugS_MOuIvxy9wBb27d9ntihBM/view?usp=drive_link",imglog:"순차모델구성과 입출력 레이 구성, MSE 손실함수와 SGD를 최적화함수 사용하여 컴파일 및 훈련 13회 실행",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
-d1.set_img(1,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
-d1.set_img(1,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
+d1.set_img(1,{imgtitle:"훈련결과시각화",imgurl:"https://drive.google.com/file/d/1Jbv6GAhSVDRuf2AWegh5zGfHCrGuw2Kr/view?usp=drive_link",imglog:"100회 이상의 훈련 후 시각그래프 판단하에 12회 훈련이 최적화로 판단되어 12회 훈련으로 조기종료함",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
+d1.set_img(1,{imgtitle:"데이터 예측",imgurl:"https://drive.google.com/file/d/15jAMgcsckOZFhNOiNNlHMKQlq4X_DCyB/view?usp=drive_link",imglog:"테스트 데이터 10개를 추출하여 예측 실행, 결과는 오차확률 4% 수치대로 접근",sourceurl:"https://github.com/Moon1210/Regression_250220/blob/main/LinearRegression/diabet"})//이미지타이틀
+
 
 d1.set_content("코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다.")
 d1.set_img(2,{imgtitle:"개발환경 구축 명세",imgurl:"https://drive.google.com/file/d/1mw6ZBtTbbZQYlfz1YQXCuTfoi-hnvfpg/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1rNVbHnhYGoozaqX_RsD3cErmKYzGUMvba9ihxbP2CKk/edit?usp=drive_link"})//이미지타이틀
