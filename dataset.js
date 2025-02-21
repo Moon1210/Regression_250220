@@ -44,7 +44,7 @@ d1.set_img(2,{imgtitle:"개발도구 Spring for Eclipse",imgurl:"https://drive.g
 d1.set_img(2,{imgtitle:"빌드도구 gradle",imgurl:"https://drive.google.com/file/d/1vlxyuzBmzaBk7B9VoycUH0mRBBxe4nTr/view?usp=drive_link",imglog:"프로그램 빌드 및 외부 라이브러리 디펜더시를 위한 도구",sourceurl:""})//이미지타이틀
 d1.set_img(2,{imgtitle:"형상관리도구 git",imgurl:"https://drive.google.com/file/d/1yLXiqHWblzxAnZXGZKvRcxU8HSgf3UqS/view?usp=drive_link",imglog:"프로그램의 전반적인 개발협업 및 버전관를 위한 도구",sourceurl:""})//이미지타이틀
 
-d1.set_fill("서버의 보안성과 각 수행기능별 패턴을 분리하기 위해 Spring WAS 와 사용자 View 기능을 위해 웹브라우져에서 일반적인 작동이 가능한 HTML5 를 구현하며 데이터베이스 연동 대신 파일로 회원목록 저장")//사용자 에필로그
+d1.set_fill("선형 분석을 위한 데이터 표준화 및 훈련실행 시 연관된 데이터의 수집과 분석하여 데이터를 선택함이 중요하게 생각된다.")//사용자 에필로그
 data_sets.push(d1)
 
 // menu2 =============================================================
