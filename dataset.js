@@ -72,6 +72,7 @@ d2.set_img(0,{imgtitle:"예측데이터 출력",imgurl:"https://drive.google.com
 d2.set_img(0,{imgtitle:"혼동행렬과 시각화",imgurl:"https://drive.google.com/file/d/1ATHNaq0x-0IixK-vdP1oOimFzOshce-T/view?usp=drive_link",imglog:"혼동행렬을 출력하여 히트맵으로 실제정답과 예측정답의 예측된 횟수 시각화 실행하여 1종오류와 2종오류에 대한 추측",sourceurl:"https://github.com/Moon1210/Regression_250220/tree/main/LinearRegression"})//이미지타이틀
 d2.set_img(0,{imgtitle:"정밀도재현율측청",imgurl:"https://drive.google.com/file/d/1BEMuOc5BGAF0ZfgGBLJ2hLgLuNPl2SSW/view?usp=drive_link",imglog:"훈련결과 모델의 정밀도와 재현율 및 f1-score를 측정하여 수치 요약",sourceurl:"https://github.com/Moon1210/Regression_250220/tree/main/LinearRegression"})//이미지타이틀
 
+d2.set_content("당뇨데이터 분석에 의한 음성과 양성 당뇨판정 예측모델.")//서브 타이틀
 d2.set_img(0,{imgtitle:"당뇨데이터 불려오기",imgurl:"https://drive.google.com/file/d/1Qx0N4WcckQTIlAWf8rRXTsXV3eFCZq7_/view?usp=drive_link",imglog:"임신횟수, 혈장, 혈압등의 8개 특성 데이터 판다스를 이용하여 로드 및 분석",sourceurl:"https://github.com/Moon1210/Regression_250220/tree/main/binary_classification_diabetes"})//이미지타이틀
 d2.set_img(0,{imgtitle:"히스토그램분석1",imgurl:"https://drive.google.com/file/d/1nhL19Ok3s27QVe7gx6LpKkwAnLQmscfz/view?usp=drive_link",imglog:"특성별 이상치데이터 판별과 특성데이터의 분포를 시각화",sourceurl:"https://github.com/Moon1210/Regression_250220/tree/main/binary_classification_diabetes"})//이미지타이틀
 d2.set_img(0,{imgtitle:"히스토그램분석2",imgurl:"https://drive.google.com/file/d/1anokP8HUPjbct-djhsi_tyY33iLJWnxc/view?usp=drive_link",imglog:"특성별 이상치데이터 판별과 특성데이터의 분포를 시각화",sourceurl:"https://github.com/Moon1210/Regression_250220/tree/main/binary_classification_diabetes"})//이미지타이틀
